@@ -8,13 +8,13 @@ const sendEmail = (emailIds, subject, html, text)=>{
     let mailTransporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'utkarsh.amazonreferals@gmail.com',
+            user: 'sasenkumars@gmail.com',
             pass: 'elardslzikbeyjxm'
         }
     });
      
     let mailDetails = {
-        from: 'utkarsh.amazonreferals@gmail.com',
+        from: 'sasenkumars@gmail.com',
         to: reqEmailString,
         subject: subject
     };
